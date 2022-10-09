@@ -12,17 +12,215 @@
     <header class="header bg-warning">
       <div class="container">
         <div class="row">
-          <div class="col text-center text-light py-5">HEADER</div>
+          <div class="col">
+            <h1 class="col text-center text-light fw-light mt-3">Tech skills</h1>
+            <div class="col text-center text-light fs-5 mb-3">Реєструйся на курс</div>
+            <div class="col text-center mb-5">
+              <button type="button" class="btn btn-outline-dark px-5 py-2 fs-5">Зареєствуватися</button>
+            </div> 
+          </div>
         </div>
       </div>
+
+      <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/logo.png" alt="Логотип">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Головна</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Курси
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">C++</a></li>
+                  <li><a class="dropdown-item" href="#">JS</a></li>
+                  <li><a class="dropdown-item" href="#">C#</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Інші курси</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Розклад
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Денний</a></li>
+                  <li><a class="dropdown-item" href="#">Вечірній</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Про нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Контакти</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
     </header>
 
     <main class="main">
       <div class="container">
         <div class="row">
-          <div class="main col-xl-6 col-lg-8 col-md-12 text-center py-5">MAIN</div>
-          <div class="left col-xl-3 col-lg-4 col-md-6 order-xl-first text-center py-5">LEFT</div>
-          <div class="right col-xl-3 col-lg-12 col-md-6 text-center py-5">RIGHT</div>
+          <div class="main col-xl-6 col-lg-8 col-md-12 py-5">
+            <div class="accordion" id="accordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    Курс C++
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit id aliquid deserunt laudantium, odio, voluptatibus aspernatur debitis eligendi error ex distinctio nostrum eaque! Deserunt, accusantium eum. Quae velit illo sapiente ipsa fugit reiciendis recusandae exercitationem? Molestiae repellat iusto natus ullam, voluptatem ducimus atque quo odio accusantium aspernatur corrupti sint impedit!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    Курс JS
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, aperiam voluptate. Distinctio esse corporis quo corrupti nesciunt inventore eos reprehenderit consectetur a beatae aliquid illo, ex modi amet enim qui nam culpa et ipsum facere vel. Ipsum odio quo non ducimus explicabo, eius cum amet laborum quos blanditiis, recusandae rem.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    Курс С#
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime labore quam cumque culpa, explicabo unde maiores tenetur accusamus modi molestias sed reprehenderit nam, illo molestiae illum est deserunt corrupti similique quaerat? Tempora molestiae necessitatibus laborum delectus officiis vel labore nulla placeat, quia nostrum repellat dolore cum odit esse rem!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                    Інші курси
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime labore quam cumque culpa, explicabo unde maiores tenetur accusamus modi molestias sed reprehenderit nam, illo molestiae illum est deserunt corrupti similique quaerat? Tempora molestiae necessitatibus laborum delectus officiis vel labore nulla placeat, quia nostrum repellat dolore cum odit esse rem!
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container-sm">
+
+              <div class="col mt-5 mb-4 fs-5 text-center">
+                Реєстрація
+              </div>
+
+              <form action="#">
+                <div class="mb-3">
+                  <label class="form-label" for="login">Логін:</label>
+                  <input class="form-control" type="text" id="login" placeholder="Логін" name="form-login">
+                </div>
+              
+                <div class="mb-3">
+                  <labe class="form-label" for="pass">Пароль:</labe>
+                  <input class="form-control" type="password" id="pass" placeholder="Пароль" name="form-pass">
+                </div>
+                
+                <div class="mb-3">
+                  <label class="form-label" for="mail">Пошта:</label>
+                  <input class="form-control" type="email" id="mail" placeholder="Пошта" name="form-mail">
+                </div>
+                
+                <div class="mb-3">
+                  <label class="form-label" for="curs">Оберіть курс:</label>
+                  <select class="form-control" name="form-select" id="curs">
+                    <option value="C++">C++</option>
+                    <option value="JS">JS</option>
+                    <option value="C#">C#</option>
+                  </select>
+                </div>
+                
+                <div class="mb-3">
+                  <label class="form-label" for="time">Час навчання:</label>
+                  <input class="form-control" type="time" id="time" name="form-time">
+                </div>
+
+                <div class="col text-center">
+                  <input class="btn btn-outline-warning " type="submit" value="Зареєструватися">
+                </div>
+                
+              </form>
+            </div>
+          </div>
+
+          <div class="left col-xl-3 col-lg-4 col-md-6 order-xl-first text-center py-5">
+            <div id="carousel" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/img/img-1.jpg" class="d-block w-100" alt="img-1">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/img-2.jpg" class="d-block w-100" alt="img-2">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/img-3.jpg" class="d-block w-100" alt="img-3">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/img-4.jpg" class="d-block w-100" alt="img-4">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="right col-xl-3 col-lg-12 col-md-6 text-center py-5">
+            <div class="col">
+              <div class="fs-4 mb-2">
+                Новинка
+              </div>
+              <img src="assets/img/right.png" alt="Картинка">
+            </div>
+
+            <div class="col mt-4">
+              <div class="fs-4 mb-2">
+                Новинка
+              </div>
+              <img src="assets/img/right.png" alt="Картинка">
+            </div>
+          </div>
+
         </div>
       </div>
     </main>
@@ -30,7 +228,7 @@
     <footer class="footer bg-dark bg-gradient">
       <div class="container">
         <div class="row">
-          <div class="col text-light text-center py-5">FOOTER</div>
+          <div class="col text-light text-center py-4">Copyright Volodymyr Matviienko || 2022</div>
         </div>
       </div>
     </footer>
